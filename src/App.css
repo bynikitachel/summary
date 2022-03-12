@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: rgb(220, 216, 231);
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 100%;
+    }
+}
